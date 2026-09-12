@@ -25,8 +25,19 @@
 - [Слайды](https://docs.google.com/presentation/d/1504km4FN91NSpgskQkHDoBLPAk4BdnoZiZ1WexzBLvg/edit?usp=sharing)
 - Марк Ричардс и Нил Форд "Фундаментальный подход к программной архитектуре", стр. 27 - 31, раздел "Определение программной архитектуры"
 - [Манифест 12-факторного приложения](https://12factor.net/ru/). Обратите внимание, что каждый фактор в списке - ссылка на отдельную страницу с подробным и достаточно понятным описанием.
+
+### Лекция 2 (12.09.2026)
+
+- [Слайды](https://docs.google.com/presentation/d/11Ori8cKx5RSFEKD2NMs2bZW49skZl6ayuFavkDtEIfc/edit?usp=sharing)
 - [Хабр | Docker для начинающих: что это такое и как пользоваться](https://habr.com/ru/companies/netologyru/articles/967546/)
 - [Хабр | Руководство по Docker Compose для начинающих](https://habr.com/ru/companies/ruvds/articles/450312/)
-- [Render - первый деплой](https://render.com/docs/your-first-deploy)
-- [Render Blueprint IaC](https://render.com/docs/infrastructure-as-code)
-- [Примеры кода](https://github.com/stasshiray/spp2026-examples/tree/lecture-1)
+- [Render Docs | Your First Render Deploy](https://render.com/docs/your-first-deploy)
+- [Render Docs | Render Blueprint (IaC)](https://render.com/docs/infrastructure-as-code)
+- [Хабр | Github Actions. Простой пример для уверенного знакомства](https://habr.com/ru/articles/711278/)
+- Github Actions Docs [EN](https://docs.github.com/en/actions) | [RU](https://docs.github.com/ru/actions)
+- [Регистрация Trial в Google Cloud и создание кластера Kubernetes](./REGISTER_GKE.md)
+- [Kubernetes | Руководства | Основы Kubernetes](https://kubernetes.io/ru/docs/tutorials/kubernetes-basics/)
+- [Google Cloud | Kubernetes best practices: terminating with grace](https://cloud.google.com/blog/products/containers-kubernetes/kubernetes-best-practices-terminating-with-grace)
+- [Хабр | Почему ваши логи бесполезны и как это починить за полчаса](https://habr.com/ru/companies/otus/articles/1034388/) - кратко о structured logging
+- [Хабр | Человеческим языком про метрики (4 части)](https://habr.com/ru/companies/tochka/articles/683608/)
+- [Примеры кода](https://github.com/stasshiray/spp2026-examples/tree/lecture-2-deployment)
