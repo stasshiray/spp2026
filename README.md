@@ -1,6 +1,6 @@
 # Материалы по курсу СПП 2026
 
-# Ссылка на лекцию 19.09 - [https://meet.google.com/vmm-cczq-knv](https://meet.google.com/vmm-cczq-knv)
+# ‼️ Лекции 19.09 не будет ‼️
 
 ## Правила игры
 
