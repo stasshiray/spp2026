@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Генератор с возвратом объектов-эффектов</title>
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      max-width: 600px;
+      margin: 40px auto;
+      padding: 0 20px;
+      background: #f8fafc;
+      color: #1e293b;
+    }
+    .card {
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
+    }
+    .controls { display: flex; gap: 8px; margin: 15px 0; }
+    button {
+      padding: 9px 14px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: 600;
+    }
+    button:disabled { opacity: 0.4; cursor: not-allowed; }
+    #btn-next { background: #2563eb; color: #fff; }
+    #btn-cancel { background: #ef4444; color: #fff; }
+    #btn-throw { background: #f59e0b; color: #fff; }
+    #btn-reset { background: #64748b; color: #fff; }
+    pre {
+      background: #0f172a;
+      color: #e2e8f0;
+      padding: 14px;
+      border-radius: 8px;
+      font-size: 13px;
+      min-height: 180px;
+      white-space: pre-wrap;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h3>Пошаговый генератор (эффекты-объекты)</h3>
+
+    <div class="controls">
+      <button id="btn-next">▶ Следующий шаг (.next)</button>
+      <button id="btn-cancel" disabled>⏹ Отмена (.return)</button>
+      <button id="btn-throw" disabled>⚡ Сбой (.throw)</button>
+      <button id="btn-reset">Сброс</button>
+    </div>
+
+    <pre id="log">Нажмите «Следующий шаг», чтобы начать...</pre>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

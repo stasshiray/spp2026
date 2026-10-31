@@ -10,9 +10,13 @@
 1. Устанавливаем и инициализируем Gloud CLI по инструкции https://docs.cloud.google.com/sdk/docs/install-sdk
 2. Устанавливаем kubectl с расширениями
 3. Генерируем `kubeconfig` для установки current context `kubectl`
-```
+```shell
 gcloud container clusters get-credentials <name> \
     --location=<region>
 ``` 
+Если надо найти имя и регио
+```shell
+gcloud container clusters list
+```
 4. Ищем свой кластер через `kubectl config get-contexts` и устанавливаем через `kubectl config use-context ...` 
 5. Управляем своим кластером
